@@ -1,0 +1,76 @@
+.content--wrapper {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+.aside {
+  padding: .675rem;
+  border: 1px solid #E0E0E0;
+  min-width: 14.5rem;
+  width: 30%;
+}
+.main {
+  padding: .675rem;
+  border: 1px solid #E0E0E0;
+  min-width: 70%;
+}
+.node__list {
+  padding: 0;
+}
+.inner__node__list {
+  padding-left: 2rem;
+}
+.node {
+  display: flex;
+  gap: .313rem;
+  cursor: pointer;
+  padding: .625rem;
+}
+.node:hover {
+  background: #3f3d6b;
+  color: #E0E0E0;
+}
+.no__nodes {
+  margin-left: 1.5rem;
+}
+.gray__background {
+  background: #f5f5f5;
+}
+
+.rstm-toggle-icon {
+  display: inline-block;
+}
+.rstm-toggle-icon-symbol {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.rstm-tree-item-group {
+  list-style-type: none;
+  padding-left: 0;
+  /*border-top: 1px solid #ccc;*/
+  text-align: left;
+  width: 100%;
+}
+
+.rstm-tree-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  /*border-bottom: 1px solid #ccc;*/
+  box-shadow: none;
+  z-index: unset;
+  position: relative;
+}
+.rstm-tree-item--active {
+  color: white;
+  background: #3f3d6b;
+  border-bottom: none;
+}
+.rstm-tree-item--focused {
+  box-shadow: 0 0 5px 0 #222;
+  z-index: 999;
+}
